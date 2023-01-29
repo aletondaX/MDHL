@@ -3,12 +3,8 @@ body {
 }
 
 header {
-    /* background-color: antiquewhite; */
     width: 940px;
     height: 320px;
-    /* background-image: url("../img/design1_image1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 h1 {
@@ -18,8 +14,6 @@ h1 {
     margin-left: 12px;
     margin-bottom: 6px;
     color: rgb(248, 225, 46);
-    /* text-decoration: line 5px solid rgb(198, 72, 50); */
-    /* text-shadow: 5px 5px rgb(198, 72, 50); */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(198, 72, 50);
 }
