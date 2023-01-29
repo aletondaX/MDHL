@@ -6,7 +6,7 @@ header {
     /* background-color: antiquewhite; */
     width: 940px;
     height: 320px;
-    background-image: url("./img/design1_image1.jpg");
+    background-image: url("../img/design1_image1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,7 +15,15 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
     margin-left: 12px;
-    color: white;
+    color: rgb(248, 225, 46);
+    /* text-decoration: line 5px solid rgb(198, 72, 50); */
+    /* text-shadow: 5px 5px rgb(198, 72, 50); */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(198, 72, 50);
+}
+
+.back-img {
+    display: none;
 }
 
 #logo {
@@ -28,8 +36,10 @@ h1 {
 .barra {
     width: 940px;
     background-color: black;
-    color: white;
+    color: rgb(248, 225, 46);
     text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(198, 72, 50);
 }
 
 nav {
