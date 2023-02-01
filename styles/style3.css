@@ -1,5 +1,6 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana; */
+    font-family: 'Poppins';
 }
 
 header {
@@ -10,8 +11,8 @@ header {
     background-repeat: no-repeat;
 }
 
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+header h1 {
+    font-family: 'Segoe UI';
     font-size: 3rem;
     margin: 0px;
     margin-left: 12px;
@@ -21,7 +22,7 @@ h1 {
     -webkit-text-stroke-color: rgb(198, 72, 50);
 }
 
-h2 {
+.barra h2 {
     margin: 0px;
 }
 
@@ -42,7 +43,8 @@ h2 {
     color: rgb(248, 225, 46);
     text-align: center;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(198, 72, 50);
+    /* -webkit-text-stroke-color: rgb(198, 72, 50); */
+    -webkit-text-stroke-color: rgb(198, 171, 50);
 }
 
 nav {
@@ -68,4 +70,31 @@ nav {
 
 .palcostado {
     margin-left: 20px;
+}
+
+.rosario-central {
+    text-align: center;
+}
+
+.jaaa {
+    margin-top: 30px;
+}
+
+.indentar {
+    text-indent: 2em;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+th, td {
+    padding-right: 30px;
+}
+
+.separar {
+    display: flex;
+    justify-content: space-between;
 }
