@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Information</title>
-    <link rel="stylesheet" href="styles/style3.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
@@ -14,14 +14,18 @@
 
 <body>
     <header>
-        <h1>Mighty Ducks Hockey League</h1>
+        <div class="h1-nav">
+            <h1>Mighty Ducks Hockey League</h1>
+            <nav>
+                <a class="navitem" href="./index.html">Home</a>
+                <a class="navitem" href="./about.html">About MDHL</a>
+                <a class="navitem" href="./contact.html">Contact</a>
+                <p class="navitem pag-actual">Schedule</p>
+                <a class="navitem" href="./rules.html">Rules</a>
+            </nav>
+        </div>
+
         <img id="logo" src="./img/MDHL-logo.png" alt="MDHL Logo.">
-        <nav>
-            <!-- <a class="navitem pag-actual" href="#">Home</a> -->
-            <p class="navitem pag-actual">Home</p>
-            <a class="navitem" href="./about.html">About MDHL</a>
-            <a class="navitem" href="./contact.html">Contact</a>
-        </nav>
     </header>
 
     <main>
@@ -30,95 +34,104 @@
         </div>
         <h3><i>Fall Schedule</i></h3>
         <h4><u><i>* All games take place on Saturday.</i></u></h4>
-        <table class="tabla">
-            <tr>
-                <th>SEPTEMBER</th>
-                <th>Teams</th>
-                <th>Location</th>
-                <th>Times</th>
-            </tr>
-            <tr>
-                <td>9/01</td>
-                <td>
-                    <p>U1 and U4</p>
-                    <p>U3 and U2</p>
-                </td>
-                <td>
-                    <p>AJ Katzenmaier</p>
-                    <p>Greenbay</p>
-                </td>
-                <td>
-                    <p>9:30 a.m.</p>
-                    <p>1:00 p.m.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>9/08</td>
-                <td>
-                    <p>U5 and U6</p>
-                    <p>U6 and U1</p>
-                </td>
-                <td>
-                    <p>Howard A Yeager</p>
-                    <p>Marjorie P Hart</p>
-                </td>
-                <td>
-                    <p>9:30 a.m.</p>
-                    <p>1:00 p.m.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>9/15</td>
-                <td>
-                    <p>U2 and U4</p>
-                    <p>U3 and U5</p>
-                </td>
-                <td>
-                    <p>North</p>
-                    <p>AJ Katzenmaier</p>
-                </td>
-                <td>
-                    <p>9:30 a.m.</p>
-                    <p>1:00 p.m.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>9/22</td>
-                <td>
-                    <p>U1 and U3</p>
-                    <p>U2 and U6</p>
-                </td>
-                <td>
-                    <p>South</p>
-                    <p>Howard A Yeager</p>
-                </td>
-                <td>
-                    <p>9:30 a.m.</p>
-                    <p>1:00 p.m.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>9/29</td>
-                <td>
-                    <p>U4 and U5</p>
-                </td>
-                <td>
-                    <p>Greenbay</p>
-                </td>
-                <td>
-                    <p>9:30 a.m.</p>
-                </td>
-            </tr>
-        </table>
+        <div class="centrar-wea">
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>SEPTEMBER</th>
+                        <th>Teams</th>
+                        <th>Location</th>
+                        <th>Times</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9/01</td>
+                        <td>
+                            <p>U1 and U4</p>
+                            <p>U3 and U2</p>
+                        </td>
+                        <td>
+                            <p>AJ Katzenmaier</p>
+                            <p>Greenbay</p>
+                        </td>
+                        <td>
+                            <p>9:30 a.m.</p>
+                            <p>1:00 p.m.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9/08</td>
+                        <td>
+                            <p>U5 and U6</p>
+                            <p>U6 and U1</p>
+                        </td>
+                        <td>
+                            <p>Howard A Yeager</p>
+                            <p>Marjorie P Hart</p>
+                        </td>
+                        <td>
+                            <p>9:30 a.m.</p>
+                            <p>1:00 p.m.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9/15</td>
+                        <td>
+                            <p>U2 and U4</p>
+                            <p>U3 and U5</p>
+                        </td>
+                        <td>
+                            <p>North</p>
+                            <p>AJ Katzenmaier</p>
+                        </td>
+                        <td>
+                            <p>9:30 a.m.</p>
+                            <p>1:00 p.m.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9/22</td>
+                        <td>
+                            <p>U1 and U3</p>
+                            <p>U2 and U6</p>
+                        </td>
+                        <td>
+                            <p>South</p>
+                            <p>Howard A Yeager</p>
+                        </td>
+                        <td>
+                            <p>9:30 a.m.</p>
+                            <p>1:00 p.m.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9/29</td>
+                        <td>
+                            <p>U4 and U5</p>
+                        </td>
+                        <td>
+                            <p>Greenbay</p>
+                        </td>
+                        <td>
+                            <p>9:30 a.m.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        <p><b>Facility Type:</b> Outdoor</p>
-        <p><b>Additional Information:</b> If deemed necessary by MDHL, games may be shortened or cancelled due to
-            extreme weather conditions.</p>
-        <hr>
-        <p><b>Please direct all questions to:</b> Michael Randall, League Coordinator.</p>
-        <div class="separar">
-            <p><b>Phone:</b> (630) 690-8132</p>
-            <p><b>Email:</b> michael.randall@chihockey.org</p>
+        <div>
+            <p><b>Facility Type:</b> Outdoor</p>
+            <p><b>Additional Information:</b> If deemed necessary by MDHL, games may be shortened or cancelled due to
+                extreme weather conditions.</p>
+        </div>
+        <div class="separar-vert">
+            <p><b>Please direct all questions to:</b> Michael Randall, League Coordinator.</p>
+            <div class="separar-hor">
+                <p><b>Phone:</b> (630) 690-8132</p>
+                <p><b>Email:</b> michael.randall@chihockey.org</p>
+            </div>
         </div>
 
     </main>
