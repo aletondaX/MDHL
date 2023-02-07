@@ -111,3 +111,64 @@ th, td {
 .cir-culito {
     list-style-type: circle;
 }
+
+.form-renglon {
+    margin-bottom: 8px;
+}
+
+.form-indent {
+    margin-left: 20px;
+}
+
+.btn-submit {
+    margin: 10px;
+    width: 160px;
+    height: 40px;
+}
+
+/* .darflex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+} */
+
+/* .darflex2 {
+    display: flex;
+    width: 100%;
+} */
+
+#katze, #greenbay, #howard, #marjorie, #north, #south {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mapa {
+    border-radius: 20px;
+}
+
+form {
+    width: 100%;
+    /* display: flex; */
+}
+
+/* #fname {
+    width: 60%;
+    margin-left: 8px;
+} */
+
+/* #lname {
+    width: 60%;
+    margin-left: 8px;
+} */
+
+/* #street {
+    width: 70%;
+} */
+
+/* #st2 {
+    width: 20%;
+} */
+
+fieldset {
+    border: 0;
+}
